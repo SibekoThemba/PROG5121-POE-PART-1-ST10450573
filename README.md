@@ -7,3 +7,6 @@ Help with resolving package and import errors in NetBeans
 ChatGPT was mainly used to provide explanations and guidance
 
 Please navigate to the screenshot to see images of the types of ptompts that were used.
+
+Link to youtube video:
+https://youtu.be/CXAUZUjuBf4?si=0PlICQs5_9NU4Fvt
