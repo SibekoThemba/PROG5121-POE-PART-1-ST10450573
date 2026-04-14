@@ -81,4 +81,31 @@ public class Login {
             return "Username or password incorrect, please try again.";
         }
     }
+    
+    // Username message
+    public String getUserNameMessage(String username) {
+    if (checkUserName(username)) {
+        return "Username successfully captured.";
+    } else {
+        return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
+    }
+    }
+
+    // Password message
+    public String getPasswordMessage(String password) {
+    if (checkPasswordComplexity(password)) {
+        return "Password successfully captured.";
+    } else {
+        return "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character.";
+    }
+    }
+
+    // Cellphone message
+    public String getCellPhoneMessage(String cellPhone) {
+    if (checkCellPhoneNumber(cellPhone)) {
+        return "Cell number successfully captured.";
+    } else {
+        return "Cell number is incorrectly formatted or does not contain an international code; please correct the number and try again.";
+    }
+}
 }
